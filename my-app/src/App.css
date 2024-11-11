@@ -46,7 +46,17 @@ section{
 }
 .card-img{
   max-width: 200px;
+  border-radius: 7px;
 }
+.details{
+  box-shadow: 10px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  padding: 3px 10px;
+  border-radius: 7px;
+}
+.details>p{
+  font-weight: 500;
+}
+
 /* .App {
   text-align: center;
   font-family: 'poppins';

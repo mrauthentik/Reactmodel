@@ -7,7 +7,7 @@ export default function Card(){
                 <div className='card1'>
                     <img src='/images/photo (1).jpg' alt='' className='card-img'/> 
                      <div className='details'>
-                         <p> Ratings ⭐⭐</p>
+                         <p> Ratings: ⭐⭐</p>
                          <p> Mario Luiz</p>
                          <p> 20$</p>
                      </div>
@@ -16,7 +16,7 @@ export default function Card(){
                 <div className='card2'> 
                     <img src='/images/photo (2).jpg' alt='' className='card-img'/>
                     <div className='details'>
-                        <p> Ratings ⭐⭐⭐⭐⭐</p>
+                        <p> Ratings: ⭐⭐⭐⭐⭐</p>
                         <p> Mario Luiz</p>
                         <p> 20$</p>
                     </div> 
@@ -24,7 +24,7 @@ export default function Card(){
                 <div className='card3'>
                     <img src='/images/photo (3).jpg' alt='' className='card-img'/>
                     <div className='details'>
-                            <p> Ratings ⭐⭐⭐</p>
+                            <p> Ratings: ⭐⭐⭐</p>
                             <p> Mario Luiz</p>
                             <p> 20$</p>
                     </div>
