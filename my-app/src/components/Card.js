@@ -1,21 +1,21 @@
 import React from 'react'
 
-export default function Card(){
+export default function Card( props){
     return(
         <section>
             <div className='photo-grid'>
                 <div className='card1'>
-                    <img src='/images/photo (1).jpg' alt='' className='card-img'/> 
+                    <img src={props.img} alt='' className='card-img'/> 
                      <div className='details'>
                          <span> ⭐⭐</span>
                          <span> 5.6</span>
                          <span> (6) . </span>
-                         <span>Korea  </span>
+                         <span>{props.country} </span>
                      </div>
-                     <p>Life Lessons with Zorah Xhin </p>
-                     <p> From $146/ person </p>
+                     <p>Life Lessons with {props.name} </p>
+                     <p> From {props.pricing} / person </p>
                 </div>
-                <div className='card2'> 
+                {/* <div className='card2'> 
                     <img src='/images/photo (2).jpg' alt='' className='card-img'/>
                     <div className='details'>
                     <span> ⭐⭐⭐</span>
@@ -36,7 +36,7 @@ export default function Card(){
                     </div>
                     <p>Life Lessons with Uche John </p>
                      <p> From $156/ person </p>
-                </div>
+                </div> */}
             </div>
           
             

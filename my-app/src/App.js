@@ -9,9 +9,15 @@ function App() {
   return(
     
     <div> 
-      <Navbar />
+      <Navbar/>
       <Hero />
-      <Card />
+      <Card 
+       img="/images/photo (1).jpg"
+       name="Alisa Vanessa"
+       country="Korea"
+       pricing="$146"
+      />
+     
       <Footer />
     </div>
   )
