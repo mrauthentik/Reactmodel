@@ -38,7 +38,15 @@ section{
 .hero-text{
   margin-top: 0;
 }
-
+.photo-grid{
+  display: flex;
+}
+.photo-grid > div{
+  margin-left: 5px;
+}
+.card-img{
+  max-width: 200px;
+}
 /* .App {
   text-align: center;
   font-family: 'poppins';
