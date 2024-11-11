@@ -1,19 +1,19 @@
 import React from 'react'
 
-export default function Card( props){
+export default function Card( {img,name,pricing,country}){
     return(
         <section>
             <div className='photo-grid'>
                 <div className='card1'>
-                    <img src={props.img} alt='' className='card-img'/> 
+                    <img src={img} alt='' className='card-img'/> 
                      <div className='details'>
                          <span> ⭐⭐</span>
                          <span> 5.6</span>
                          <span> (6) . </span>
-                         <span>{props.country} </span>
+                         <span>{country} </span>
                      </div>
-                     <p>Life Lessons with {props.name} </p>
-                     <p> From {props.pricing} / person </p>
+                     <p>Life Lessons with {name} </p>
+                     <p> From {pricing} / person </p>
                 </div>
                 {/* <div className='card2'> 
                     <img src='/images/photo (2).jpg' alt='' className='card-img'/>
