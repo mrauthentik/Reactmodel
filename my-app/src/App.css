@@ -40,21 +40,33 @@ section{
 }
 .photo-grid{
   display: flex;
+  flex-direction: row;
+  width: 175px;
+  font-size: 12px;
 }
 .photo-grid > div{
   margin-left: 5px;
 }
 .card-img{
-  max-width: 200px;
-  border-radius: 7px;
+  width: 200px;
+  align-self: center;
+  border-radius: 9px;
+
 }
 .details{
   box-shadow: 10px 2.98256px 7.4564px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
   padding: 3px 10px;
   border-radius: 7px;
+  color: #918E98;
 }
 .details>p{
   font-weight: 500;
+}
+.footer{
+  display: flex;
+  justify-content:space-around;
 }
 
 /* .App {
