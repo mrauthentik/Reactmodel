@@ -82,6 +82,9 @@ section{
   display: flex;
   justify-content:space-around;
 }
+.footer-img{
+  border-radius: 10px;
+}
 .extend{
   background-color: rgb(0, 0, 0);
   color: aliceblue;
