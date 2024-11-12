@@ -38,19 +38,26 @@ section{
 .hero-text{
   margin-top: 0;
 }
+
 .photo-grid{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 4;
+  /* justify-content:; */
+  gap: 10px;
   width: 175px;
+  flex-wrap: wrap;
   font-size: 12px;
+  
 }
 .photo-grid > div{
   margin-left: 5px;
 }
 .card-img{
-  width: 200px;
-  align-self: center;
+  width: 100%;
+  
+  /* align-self: center; */
   border-radius: 9px;
+  margin-bottom: 9px;
 
 }
 .details{
@@ -60,6 +67,9 @@ section{
   padding: 3px 10px;
   border-radius: 7px;
   color: #918E98;
+  overflow: hidden;
+  text-overflow: ellipsis ;
+
 }
 .details>p{
   font-weight: 500;
@@ -67,6 +77,15 @@ section{
 .footer{
   display: flex;
   justify-content:space-around;
+}
+.tip{
+  background-color: white;
+  font-weight: 700;
+  padding: 1px;
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: absolute;
 }
 
 /* .App {
