@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card( {img,name,pricing,country}){
+export default function Card( {img,name,pricing,country,title}){
     return(
         <section>
             <div className='photo-grid'>
@@ -12,8 +12,8 @@ export default function Card( {img,name,pricing,country}){
                          <span> (6) . </span>
                          <span>{country} </span>
                      </div>
-                     <p>Life Lessons with {name} </p>
-                     <p> From {pricing} / person </p>
+                     <p>{title} {name} </p>
+                     <p> From ${pricing} / person </p>
                 </div>
                 {/* <div className='card2'> 
                     <img src='/images/photo (2).jpg' alt='' className='card-img'/>

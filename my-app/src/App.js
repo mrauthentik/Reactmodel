@@ -15,7 +15,8 @@ function App() {
        img="/images/photo (1).jpg"
        name="Alisa Vanessa"
        country="Korea"
-       pricing="$146"
+       pricing={136}
+       title="Life Lessons with"
       />
      
       <Footer />
