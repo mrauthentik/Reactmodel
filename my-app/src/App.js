@@ -27,13 +27,6 @@ function App() {
     <div> 
       <Navbar/>
       <Hero />
-      {/* <Card 
-       img="/images/photo (1).jpg"
-       name="Alisa Vanessa"
-       country="Korea"
-       pricing={136}
-       title="Life Lessons with"
-      /> */}
       {dataElements}
       <Footer />
     </div>
