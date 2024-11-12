@@ -30,7 +30,7 @@ function App() {
       <div className='site'> 
         {dataElements}
       </div>
-      <Footer />
+      <Footer className='extend' />
     </div>
   )
 }

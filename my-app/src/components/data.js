@@ -22,12 +22,12 @@ export default [
         pricing: "125",
         img:"/images/photo (2).jpg",
         review:"5.0",
-        name:"Jakobs Atenilla",
+        name:"Alisha Kross",
         stats:{
             rating: 3.9,
             reviewCount: 20
         },
-        location:"On Site",
+        location:"Dominican",
         openSpots:1,
 
     },
@@ -76,6 +76,22 @@ export default [
             reviewCount: 20
         },
         location:"Online",
+        openSpots:23,
+
+    },
+    {
+        id: 6,
+        title: 'Learning at your own space',
+        description:"intrested in learning at your own space",
+        pricing: "125",
+        img:"/images/photo (6).jpg",
+        review:"5.0",
+        name:"Jakobs Khon",
+        stats:{
+            rating: 3.9,
+            reviewCount: 20
+        },
+        location:"Onsite",
         openSpots:23,
 
     },
